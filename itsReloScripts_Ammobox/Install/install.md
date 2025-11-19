@@ -33,6 +33,7 @@ Install:
 		label = '9mm Munitionsbox',
 		weight = 250,
 		stack = true,
+        consume = 0,
 		client = {},
 		server = {
 			export = 'itsReloScripts_Ammobox.useAmmo9Box'
@@ -43,6 +44,7 @@ Install:
 		label = 'Gewehr-Munitionsbox',
 		weight = 250,
 		stack = true,
+        consume = 0,
 		client = {},
 		server = {
 			export = 'itsReloScripts_Ammobox.useAmmoRifleBox'
@@ -53,6 +55,7 @@ Install:
 		label = 'Gewehr-Munitionsbox Typ 2',
 		weight = 250,
 		stack = true,
+        consume = 0,
 		client = {},
 		server = {
 			export = 'itsReloScripts_Ammobox.useAmmoRifle2Box'
@@ -63,6 +66,7 @@ Install:
 		label = 'Schrot-Munitionsbox',
 		weight = 280,
 		stack = true,
+        consume = 0,
 		client = {},
 		server = {
 			export = 'itsReloScripts_Ammobox.useAmmoShotgunBox'
@@ -77,6 +81,7 @@ Install:
 		label = '9mm Box',
 		weight = 250,
 		stack = true,  
+        consume = 0,
 		client = {},
 		server = {
 			export = 'itsReloScripts_Ammobox.useAmmo9Box'
@@ -87,6 +92,7 @@ Install:
 		label = 'Rifle Ammo Box',
 		weight = 250,
 		stack = true,
+        consume = 0,
 		client = {},
 		server = {
 			export = 'itsReloScripts_Ammobox.useAmmoRifleBox'
@@ -97,6 +103,7 @@ Install:
 		label = 'Rifle2 Ammo Box',
 		weight = 250,
 		stack = true,
+        consume = 0,
 		client = {},
 		server = {
 			export = 'itsReloScripts_Ammobox.useAmmoRifle2Box'
@@ -106,7 +113,8 @@ Install:
 	['ammo-shotgunbox'] = {
 		label = 'Shotgun Ammo Box',
 		weight = 280,
-		stack = true,  
+		stack = true, 
+        consume = 0, 		
 		client = {},
 		server = {
 			export = 'itsReloScripts_Ammobox.useAmmoShotgunBox'
@@ -133,4 +141,5 @@ Install:
 	
 ------------------------------------------------------------		
     7. Starten Sie Ihren Server und genießen Sie!
+
     7. Start your server and enjoy!
